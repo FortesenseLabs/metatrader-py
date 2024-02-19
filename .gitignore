@@ -1,0 +1,4 @@
+build
+dist
+metatrader.egg-info
+__pycache__

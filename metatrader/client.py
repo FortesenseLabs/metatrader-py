@@ -3,8 +3,8 @@ import time
 import logging
 import pandas as pd
 from datetime import datetime
-from constants import TIME_FRAMES, ACTION_TYPE
-from functions import MTFunctions
+from metatrader.constants import TIME_FRAMES, ACTION_TYPE
+from metatrader.functions import MTFunctions
 from typing import Dict
 
 LOGGER = {

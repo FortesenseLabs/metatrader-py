@@ -14,7 +14,7 @@ def requirements(filename):
 
 setup(
     name="metatrader",
-    version="3.17",
+    version="0.0.1",
     packages=find_packages(),
     url="",
     download_url="",

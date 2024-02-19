@@ -1,7 +1,7 @@
 import socket
 import json
 from typing import List
-from constants import SOCKET_BUFFER_SIZE
+from metatrader.constants import SOCKET_BUFFER_SIZE
 
 
 class MTFunctions:
