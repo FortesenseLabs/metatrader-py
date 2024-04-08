@@ -2,3 +2,4 @@ build
 dist
 metatrader.egg-info
 __pycache__
+.venv
