@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     # Send a request to the server
     print(meta_trader.accountInfo())
-    # print(meta_trader.balance())
+    print(meta_trader.balance())
     # print(meta_trader.get_orders())
     # while True:
     #     print(meta_trader.get_current_price("Step Index"))
@@ -49,3 +49,8 @@ if __name__ == "__main__":
     # positions = meta_trader.get_positions()
     # print(positions)
     # print(meta_trader.close_all_positions())
+    
+    
+    # TODO: put the following in a class thereby creatin a class for it => current_price["data"]["tick"][1]
+    
+    
