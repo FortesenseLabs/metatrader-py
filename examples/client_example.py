@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     # Send a request to the server
     print(meta_trader.accountInfo())
-    print(meta_trader.balance())
+    # print(meta_trader.balance())
     # print(meta_trader.get_orders())
     # while True:
     #     print(meta_trader.get_current_price("Step Index"))
@@ -18,13 +18,14 @@ if __name__ == "__main__":
     # print(
     #     meta_trader.get_historical_data(
     #         symbol="Step Index",
-    #         time_frame=TIME_FRAMES.D1,
+    #         time_frame=TIME_FRAMES.H1,
     #         action_type=ACTION_TYPE.PRICE,
     #         from_date="13-02-2022 00:00:00",
     #         to_date="13-02-2024 00:00:00",
     #     )
     # )
 
+    print(meta_trader._api.send_command("INv"))
     # current_price = meta_trader.get_current_price("Step Index")
     # print(current_price)
     # pips = 100
@@ -54,3 +55,5 @@ if __name__ == "__main__":
     # TODO: put the following in a class thereby creatin a class for it => current_price["data"]["tick"][1]
     
     
+# {'error': True, 'type': 'ERR_UNKNOWN_COMMAND', 'message': 'unknown command'}
+# TODO: add error handler 
